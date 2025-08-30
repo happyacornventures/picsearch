@@ -1,5 +1,6 @@
 import * as MediaLibrary from 'expo-media-library';
-import { Text, TouchableOpacity, View } from "react-native";
+import { Alert, Text, TouchableOpacity, View } from "react-native";
+import { processImage } from '../modules/clip-processor/src/ExpoCoreMLModule';
 
 export default function Index() {
   const loadAllPhotos = async () => {
