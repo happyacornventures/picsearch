@@ -12,6 +12,7 @@ public class ClipProcessorModule: Module {
   }
 
   private func processImageWithVision(imageUri: String) async throws -> String {
+    print("🔍 Processing image: \(imageUri)")
     // Implement your CLIP/Vision processing here
     // This is a simplified example using iOS Vision framework
     guard let url = URL(string: imageUri),
