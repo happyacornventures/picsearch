@@ -5,10 +5,15 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
-    "build": "expo-module build"
+    "build": "expo-module build",
+    "clean": "expo-module clean"
+  },
+  "dependencies": {
+    "expo-modules-core": "*"
   },
   "devDependencies": {
-    "expo-module-scripts": "*"
+    "expo-module-scripts": "*",
+    "typescript": "^5.0.0"
   },
   "peerDependencies": {
     "expo": "*"
