@@ -1,0 +1,28 @@
+
+{
+  "name": "clip-processor",
+  "version": "1.0.0",
+  "main": "build/ExpoCoreMLModule.js",
+  "types": "build/ExpoCoreMLModule.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "expo",
+    "expo-module"
+  ],
+  "repository": "https://github.com/expo/expo",
+  "bugs": {
+    "url": "https://github.com/expo/expo/issues"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://docs.expo.dev/modules/",
+  "unimodulePeerDependencies": {
+    "expo-modules-core": "*"
+  }
+}
